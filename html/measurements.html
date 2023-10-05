@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPerfect - Measurements</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<!-- Navigation Bar (You can include the same navigation bar as on the homepage) -->
+<header>
+    <nav>
+        <div class="logo">FitPerfect</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Measurements Page Content -->
+<section class="measurements">
+    <h1>Enter Your Measurements</h1>
+    <p>To get custom-fit clothing, please provide your measurements below:</p>
+    <form action="process_measurements.php" method="POST">
+        <!-- Add measurement fields here -->
+        <label for="chest">Chest:</label>
+        <input type="text" id="chest" name="chest" required>
+
+        <label for="waist">Waist:</label>
+        <input type="text" id="waist" name="waist" required>
+
+        <!-- Add more measurement fields as needed -->
+
+        <button type="submit">Submit Measurements</button>
+    </form>
+</section>
+
+<!-- Footer (You can include the same footer as on the homepage) -->
+<footer>
+    <p>&copy; 2023 FitPerfect. All rights reserved.</p>
+</footer>
+</body>
+</html>
