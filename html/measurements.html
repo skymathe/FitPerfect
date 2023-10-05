@@ -24,13 +24,22 @@
 <section class="measurements">
     <h1>Enter Your Measurements</h1>
     <p>To get custom-fit clothing, please provide your measurements below:</p>
-    <form action="process_measurements.php" method="POST">
-        <!-- Add measurement fields here -->
+    <form action="data/process_measurement.php" method="POST">
+        <!-- Measurement Fields -->
         <label for="chest">Chest:</label>
         <input type="text" id="chest" name="chest" required>
 
         <label for="waist">Waist:</label>
         <input type="text" id="waist" name="waist" required>
+
+        <label for="hips">Hips:</label>
+        <input type="text" id="hips" name="hips" required>
+
+        <label for="sleeve_length">Sleeve Length:</label>
+        <input type="text" id="sleeve_length" name="sleeve_length" required>
+
+        <label for="shoulder_width">Shoulder Width:</label>
+        <input type="text" id="shoulder_width" name="shoulder_width" required>
 
         <!-- Add more measurement fields as needed -->
 

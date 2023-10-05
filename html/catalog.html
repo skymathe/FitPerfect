@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitPerfect - Product Catalog</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<!-- Navigation Bar (You can include the same navigation bar as on other pages) -->
+<header>
+  <nav>
+    <div class="logo">FitPerfect</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catalog.html">Catalog</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Product Catalog Page Content -->
+<section class="product-catalog">
+  <h1>Product Catalog</h1>
+
+  <!-- Filters and Sorting Options (You can customize this based on your needs) -->
+  <div class="filters">
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="all">All</option>
+      <option value="shirts">Shirts</option>
+      <option value="pants">Pants</option>
+      <!-- Add more category options as needed -->
+    </select>
+
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+      <option value="featured">Featured</option>
+      <option value="price-low-to-high">Price: Low to High</option>
+      <option value="price-high-to-low">Price: High to Low</option>
+    </select>
+  </div>
+
+  <!-- Product Listings -->
+  <div class="product-listings">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="product1.jpg" alt="Product 1">
+      <h2>Custom Fit Shirt</h2>
+      <p class="description">A comfortable and stylish shirt tailored to your measurements.</p>
+      <p class="details">Material: Cotton<br>Color: Blue<br>Price: $45.99</p>
+      <a href="customize.html">Customize</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="product2.jpg" alt="Product 2">
+      <h2>Custom Fit Jeans</h2>
+      <p class="description">Perfectly fitting jeans for your unique body shape.</p>
+      <p class="details">Material: Denim<br>Color: Black<br>Price: $59.99</p>
+      <a href="customize.html">Customize</a>
+    </div>
+
+    <!-- Add more product listings as needed -->
+  </div>
+</section>
+
+<!-- Footer (You can include the same footer as on other pages) -->
+<footer>
+  <p>&copy; 2023 FitPerfect. All rights reserved.</p>
+</footer>
+</body>
+</html>
